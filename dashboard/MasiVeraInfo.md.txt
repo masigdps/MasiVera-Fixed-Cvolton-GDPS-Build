@@ -1,0 +1,1 @@
+Hello! The "dashboard" folder itself is safe; however, we have restricted access to the dashboard so that only the creator can enter. If you do not want this change, please do not move the files.
