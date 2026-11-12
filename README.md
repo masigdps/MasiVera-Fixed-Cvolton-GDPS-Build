@@ -2,7 +2,7 @@
 **Security-focused Cvolton GDPS Build**
 
 > ⚠️ **STATUS: WORK IN PROGRESS** / **СТАТУС: В РАЗРАБОТКЕ** ⚠️
-> This project is currently under active development. Some features are implemented, others are planned. The code is not yet stable for production use. / Проект находится в активной разработке. Некоторые функции уже реализованы, другие только планируются. Код пока не стабилен для production-использования.
+> This project is currently under active development. Some features are implemented, others are planned. / Проект находится в активной разработке. Некоторые функции уже реализованы, другие только планируются.
 
 ---
 
@@ -38,7 +38,7 @@ This build has been tested on a **dedicated VPS** (Ubuntu 22.04, PHP 8.1, MariaD
     *Логин теперь проверяет активацию аккаунта (isActive).*
 
 *   **🧹 Clean Error Handling**
-    Removed raw SQL exceptions from player-facing pages. *(Implemented in: `uploadGJComment`, `getGJUserInfo20`)*
+    Removed raw SQL exceptions from player-facing pages. *(Implemented in: `uploadGJComment`, `(?)`)*
     *Убраны сырые ошибки SQL со страниц, видимых игрокам.*
 
 *   **🚨 Anti-Spam (Comments & Levels)**
@@ -62,10 +62,6 @@ This build has been tested on a **dedicated VPS** (Ubuntu 22.04, PHP 8.1, MariaD
     *Аудит и защита всех инструментов в папке `tools/`.*
 
 ---
-
-### 📦 Installation (Coming Soon) / Установка (Скоро)
-*Documentation and the first stable release will be published here.*
-*Документация и первый стабильный релиз будут опубликованы здесь.*
 
 ---
 ### 🤝 Credits / Благодарности
